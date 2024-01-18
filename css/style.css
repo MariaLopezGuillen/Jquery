@@ -138,6 +138,11 @@ body {
       display: none;
     }
   }
+  /* CARDS */
+  .oreo{
+    width: 300px;
+    height: auto;
+  }
   /* Footer */
   .site-footer {
     background-color: #26272b;
