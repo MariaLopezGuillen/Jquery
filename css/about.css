@@ -1,9 +1,9 @@
 .empresa img {
-    opacity: 0.5;
+timeline-scope: 0.5s;
     transition: opacity 0.5s ease;
-   }
-   
-   .empresa:hover img {
+    
+}
+
+.empresa:hover img {
     opacity: 1;
-   }
-   
+}

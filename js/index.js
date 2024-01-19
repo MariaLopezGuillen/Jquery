@@ -1,22 +1,21 @@
 $(document).ready(function(){
   // Cambiar la imagen al pasar el ratón por encima
   $('.empresa').hover(function(){
-    $('img', this).attr('src', 'img\centroadopcion1.jpg');
+   $(this).find('img').attr('src', 'img/gato.jpeg');
   }, function(){
-    $('img', this).attr('src', 'img\centroadopcion1.jpg');
+   $(this).find('img').attr('src', 'img/hocico.jpeg');
   });
- 
+  
   // Mostrar u ocultar el texto adicional al pasar el ratón por encima
   $('.empresa').hover(function(){
-    $('p', this).show();
+   $(this).find('p').show();
   }, function(){
-    $('p', this).hide();
+   $(this).find('p').hide();
   });
- 
+  
   // Funcionalidad del acordeón
   $('.acordeon h2').click(function(){
-    $(this).next().slideToggle();
+   $(this).next().slideToggle();
   });
  });
  
-   
