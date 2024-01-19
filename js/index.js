@@ -1,23 +1,22 @@
-$(document).ready(function() {
-    $('#filtroForm').on('submit', function(e) {
-    e.preventDefault();
-   
-    // Obtén los datos del formulario
-    var data = $(this).serialize();
-   
-    // Realiza la petición AJAX
-    $.ajax({
-    type: 'POST',
-    url: '/ruta/a/tu/servicio', //Preguntar como hacer el filtro
-    data: data,
-    success: function(response) {
-      // Actualiza los resultados de la búsqueda
-      $('#resultadosBusqueda').html(response);
-    },
-    error: function() {
-      alert('Hubo un error al intentar filtrar los resultados.');
-    }
-    });
-    });
-   });
+$(document).ready(function(){
+  // Cambiar la imagen al pasar el ratón por encima
+  $('.empresa').hover(function(){
+    $('img', this).attr('src', 'img\centroadopcion1.jpg');
+  }, function(){
+    $('img', this).attr('src', 'img\centroadopcion1.jpg');
+  });
+ 
+  // Mostrar u ocultar el texto adicional al pasar el ratón por encima
+  $('.empresa').hover(function(){
+    $('p', this).show();
+  }, function(){
+    $('p', this).hide();
+  });
+ 
+  // Funcionalidad del acordeón
+  $('.acordeon h2').click(function(){
+    $(this).next().slideToggle();
+  });
+ });
+ 
    
