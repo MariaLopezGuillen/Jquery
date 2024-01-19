@@ -1,21 +1,13 @@
 $(document).ready(function(){
-  // Cambiar la imagen al pasar el ratón por encima
   $('.empresa').hover(function(){
-   $(this).find('img').attr('src', 'img/gato.jpeg');
+    // Cuando el ratón entra en la imagen
+    $(this).find('.normal').hide();
+    $(this).find('.hover').show();
   }, function(){
-   $(this).find('img').attr('src', 'img/hocico.jpeg');
-  });
-  
-  // Mostrar u ocultar el texto adicional al pasar el ratón por encima
-  $('.empresa').hover(function(){
-   $(this).find('p').show();
-  }, function(){
-   $(this).find('p').hide();
-  });
-  
-  // Funcionalidad del acordeón
-  $('.acordeon h2').click(function(){
-   $(this).next().slideToggle();
+    // Cuando el ratón sale de la imagen
+    $(this).find('.normal').show();
+    $(this).find('.hover').hide();
   });
  });
+ 
  
