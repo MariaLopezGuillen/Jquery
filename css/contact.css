@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form .left {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.contact-form .right {
+    flex: 1;
+}
+
+.contact-form h2 {
+    color: #333;
+}
+
+.contact-form p {
+    color: #666;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

@@ -19,4 +19,5 @@ $(document).ready(function(){
      $(this).find('.hover').hide();
     });
    });
+
    
