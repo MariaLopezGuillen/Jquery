@@ -20,4 +20,6 @@ $(document).ready(function(){
     });
    });
 
-   
+   $("#botonEnvio").click(function() {
+    alert("¡Formulario enviado!");
+});

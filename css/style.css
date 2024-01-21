@@ -13,7 +13,12 @@ a {
   width: auto;
   height: 100px;
 }
-
+.rss{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 40px;
+  height: auto;
+}
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
