@@ -1,9 +1,11 @@
 .empresa img {
-timeline-scope: 0.5s;
+    width: 100%;
+    height: auto;
     transition: opacity 0.5s ease;
-    
 }
 
-.empresa:hover img {
-    opacity: 1;
+@media screen and (max-width: 600px) {
+    .empresa img {
+        width: 50%;
+    }
 }
