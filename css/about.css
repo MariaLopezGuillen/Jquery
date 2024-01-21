@@ -9,3 +9,8 @@
         width: 50%;
     }
 }
+p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}

@@ -148,7 +148,10 @@ a {
     display: none;
   }
 }
-
+/* TITULO */
+h1{
+  text-align: center;
+}
 /* Footer */
 .site-footer {
   background-color: #26272b;

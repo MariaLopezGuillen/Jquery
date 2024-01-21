@@ -10,6 +10,16 @@ $(document).ready(function () {
   });
 });
 
-$(".container").mouseover(function () { 
-  
+$(document).ready(function(){
+  $(".card.oreo").hover(function() {
+      $(this).animate({
+          marginLeft: '20px',
+          opacity: 0.8
+      }, 1000);
+  }, function() {
+      $(this).animate({
+          marginLeft: '0px',
+          opacity: 1
+      }, 1000);
+  });
 });

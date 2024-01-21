@@ -50,3 +50,23 @@ body {
     border: none;
     cursor: pointer;
 }
+/* Estilo para imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para texto responsivo */
+html {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
