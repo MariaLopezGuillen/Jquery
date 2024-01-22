@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="css/contact.css">
     <script src="js/contact.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <title>Adoptadog</title>
 </head>
 
@@ -55,7 +57,9 @@
                 <textarea id="message" name="message" placeholder="Asunto"></textarea>
                 <label for="message">Mensaje</label>
                 <textarea id="message" name="message" placeholder="Introduce un mensaje"></textarea>
-
+                <!-- captcha -->
+                <input type="number" id="usuarioCaptcha">
+                   <!--  -->
                 <input type="submit" value="Enviar" id="botonEnvio">
             </form>
         </div>
