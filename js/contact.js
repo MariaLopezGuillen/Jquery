@@ -23,9 +23,9 @@ $(document).ready(function () {
     $('#validar').click(function () {
         var respuestaUsuario = parseInt($('#respuestaCaptcha').val());
         if (respuestaUsuario == suma) {
-            alert("¡Correcto!");
+            alert("¡El formulario ha sido enviado!");
         } else {
-            alert("¡Incorrecto!");
+            alert("¡Incorrecto,vuelvelo a intentar!");
         }
     });
 });
