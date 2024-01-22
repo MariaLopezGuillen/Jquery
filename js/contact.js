@@ -42,7 +42,3 @@ $(document).ready(function () {
         $(this).find('.hover').hide();
     });
 });
-
-$("#botonEnvio").click(function () {
-    alert("¡Formulario enviado!");
-});
